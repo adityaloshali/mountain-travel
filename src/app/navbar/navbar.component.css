@@ -1,0 +1,45 @@
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 8rem 0;
+  animation: 1s fadein 0.5s forwards;
+  opacity: 1;
+  color: #fff;
+  z-index: 1000;
+  /* background-color: rgba(0, 0, 0, 0.2);  */
+  background: #F0F2F0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, rgba(2, 8, 34, 0.562), rgba(240, 242, 240, 0.001));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgba(2, 8, 34, 0.562), rgba(240, 242, 240, 0.001)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+@media (max-width: 950px) {
+  .nav-bar{
+    flex-direction: column;
+  }
+}
+
+.nav-bar .logo {
+  font-size: 2rem;
+  margin-top: -1rem; }
+
+.nav-bar .logo-mod {
+  font-family: "Pacifico";
+  font-size: 3rem;
+  color: #333; }
+
+.nav-bar .links {
+  display: flex;
+  margin-right: -15px; }
+
+.nav-bar .links a {
+  margin: 0 15px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  opacity: 0.75;
+  color: #fff; }
+
+.nav-bar .links a:hover {
+  opacity: 1; }
